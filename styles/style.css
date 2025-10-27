@@ -61,6 +61,7 @@ ol {
 }
 
 /* Стилизация списка с карточками*/
+
 .content__details {
   display: flex;
   flex-direction: column;
@@ -90,6 +91,7 @@ ol {
 }
 
 /* Главное видео*/
+
 .result {
   display: flex;
   flex-direction: column;
@@ -111,6 +113,7 @@ ol {
 }
 
 /* Форма поиска под главным видео*/
+
 .search-form {
   display: flex;
   flex-direction: row;
@@ -169,6 +172,7 @@ ol {
 }
 
 /* Стилизация чекбоксов*/
+
 .search-form__pseudo-checkbox {
   width: 20px;
   height: 20px;
@@ -195,6 +199,7 @@ ol {
 }
 
 /* Стилизация кнопки и ее состояния*/
+
 .button {
   border: 1px solid #fff;
   color: #fff;
@@ -214,6 +219,7 @@ ol {
 .more-button {
   min-height: 34px;
 }
+
 .button:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -233,6 +239,7 @@ ol {
 }
 
 /* Заголовок списка карточек*/
+
 .title {
   font-family: "Oswald", sans-serif;
   font-weight: bold;
@@ -246,6 +253,7 @@ ol {
 }
 
 /* Карточка видео*/
+
 .content__video-card {
   display: flex;
   flex-direction: row;
@@ -317,6 +325,7 @@ ol {
 }
 
 /* Кастомный скроллбар */
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
