@@ -14,7 +14,7 @@ html {
   justify-content: center;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -75,7 +75,8 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  height: 294px;
+  height: 296px;
+  width: 398px;
   padding-right: 3px;
   overflow: auto;
 }
@@ -128,7 +129,7 @@ ol {
 
 .search-form__fieldset-title {
   padding-bottom: 5px;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -181,7 +182,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 100%;
@@ -241,7 +242,7 @@ ol {
 /* Заголовок списка карточек*/
 
 .title {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
   font-size: 75px;
   line-height: 94%;
@@ -280,21 +281,23 @@ ol {
 }
 
 .content__video-card-title {
-  overflow: hidden;
   color: #fff;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: bold;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .content__video-card-description {
   display: -webkit-box;
   overflow: hidden;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   line-height: 16.2px;
   letter-spacing: 0;
