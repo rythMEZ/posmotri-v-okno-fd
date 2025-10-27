@@ -172,6 +172,11 @@ ol {
   outline-offset: 2px;
 }
 
+.search-form__fieldset-time {
+  padding-top: 2px;
+  padding-left: 6px;
+}
+
 /* Стилизация чекбоксов*/
 
 .search-form__pseudo-checkbox {
@@ -194,7 +199,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -339,9 +344,4 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #d9d9d9;
-}
-
-.testb {
-  padding-top: 2px;
-  padding-left: 6px;
 }
